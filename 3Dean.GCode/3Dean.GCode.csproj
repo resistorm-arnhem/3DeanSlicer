@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\3Dean.GCode.Contract\3Dean.GCode.Contract.csproj" />
-    <ProjectReference Include="..\3Dean.GCode.EntityFramework\3Dean.GCode.EntityFramework.csproj" />
   </ItemGroup>
 
 </Project>
