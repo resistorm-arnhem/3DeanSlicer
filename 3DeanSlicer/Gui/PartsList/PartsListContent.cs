@@ -44,7 +44,8 @@ namespace _3DeanSlicer.Gui.PartsList
             {
                 ShowTiles(path);
             }
-            else {
+            else
+            {
                 Debug.WriteLine($"Not an existing directory");
             }
         }
@@ -54,7 +55,7 @@ namespace _3DeanSlicer.Gui.PartsList
         {
             _contentPanel.Items.Clear();
 
-            foreach (var dir in Directory.Get                                        Directories(folderPath))
+            foreach (var dir in Directory.GetDirectories(folderPath))
                 _contentPanel.Items.Add(CreateItemPanel(dir, true));
 
             foreach (var file in Directory.GetFiles(folderPath))

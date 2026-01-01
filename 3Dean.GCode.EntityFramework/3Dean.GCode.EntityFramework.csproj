@@ -26,4 +26,8 @@
     <ProjectReference Include="..\3Dean.GCode.Contract\3Dean.GCode.Contract.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 </Project>
