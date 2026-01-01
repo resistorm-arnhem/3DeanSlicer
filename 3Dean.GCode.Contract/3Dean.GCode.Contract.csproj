@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>_3Dean.GCode.Contract</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DbModels\" />
+    <Folder Include="Models\" />
+    <Folder Include="Creators\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Updaters\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+</Project>

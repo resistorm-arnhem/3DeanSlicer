@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/GCode/">
+    <Project Path="3Dean.GCode.Contract/3Dean.GCode.Contract.csproj" Id="7ced847a-de84-4d10-9f23-ab2dd92af96c" />
+    <Project Path="3Dean.GCode.EntityFramework/3Dean.GCode.EntityFramework.csproj" Id="b8623d8b-a62f-45b0-8496-149661ab331d" />
+    <Project Path="3Dean.GCode/3Dean.GCode.csproj" Id="da6f5c8c-1b14-4f38-bafc-838563e8e25f" />
+  </Folder>
+  <Project Path="3DeanSlicer.Console/3DeanSlicer.Console.csproj" Id="3769fcef-bd0d-4758-8580-042f74b062ca" />
+  <Project Path="3DeanSlicer/3DeanSlicer.csproj" />
+</Solution>
